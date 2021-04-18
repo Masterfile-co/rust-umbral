@@ -14,11 +14,11 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 umbral-pre = { path = "../umbral-pre" }
-wasm-bindgen = "0.2.63"
+wasm-bindgen = "0.2.70"
 console_error_panic_hook = { version = "0.1" } # TODO (#16): make conditional
 wee_alloc = "0.4"
 
-[package.metadata.wasm-pack.profile.release]
+# [package.metadata.wasm-pack.profile.release]
 # See https://github.com/rustwasm/wasm-pack/issues/886
 # Maybe at some point in time this won't be necessary.
-wasm-opt = ["-Oz", "--enable-mutable-globals"]
+# wasm-opt = ["-Oz", "--enable-mutable-globals"]

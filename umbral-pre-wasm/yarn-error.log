@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /bin/yarn init
+
+PATH: 
+  $:/mnt/c/Users/ghard/documents/NuCypherTesting/NuBLS/pynubls/pynubls/pynubls.cpython-38-x86_64-linux-gnu.so:$:/home/ghard/.cargo/bin:$:/bin:/home/ghard/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin:/home/ghard/.cargo/bin:/home/ghard/.local/bin:$:/mnt/c/Users/ghard/documents/NuCypherTesting/NuBLS/pynubls/pynubls/pynubls.cpython-38-x86_64-linux-gnu.so:$:/home/ghard/.cargo/bin:$:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/ghard/google-cloud-sdk/bin:/mnt/c/Program Files/Git LFS:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/gmsh-4.5.6-Windows64:/mnt/c/Program Files (x86)/SU2:/mnt/c/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin:/mnt/c/Program Files/PostgreSQL/12/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Kubernetes/Minikube:/mnt/c/Program Files/doctl/:/mnt/c/Program Files/Textile:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/ghard/.cargo/bin:/mnt/c/Users/ghard/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ghard/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ghard/AppData/Local/Yarn/bin:/mnt/c/Users/ghard/.local/bin:/mnt/c/Users/ghard/AppData/Roaming/Python/Python38/Scripts:/mnt/c/Users/ghard/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
